@@ -18,7 +18,7 @@ function projects() {
           <h6 className="mt-4 mb-2">WEB PROJECTS</h6>
         </Row>
         <Row className="mt-2 mb-2">
-          <Col xs={12} md={4} className="mb-md-0 mb-3">
+          <Col xs={12} md={6} lg={6} xl={4} className="mb-3  mb-md-3">
             <Card style={{ width: "100%" }} className="h-100 shadow-sm">
               <Card.Body>
                 <Card.Title>Personal Portfolio</Card.Title>
@@ -37,7 +37,7 @@ function projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-md-0 mb-3">
+          <Col xs={12} md={6} lg={6} xl={4} className="mb-3 mb-md-3">
             <Card style={{ width: "100%" }} className="h-100 shadow-sm">
               <Card.Body>
                 <Card.Title>Jammming</Card.Title>
@@ -64,7 +64,7 @@ function projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-md-0 mb-3">
+          <Col xs={12} md={6} lg={6} xl={4} className="mb-3 mb-md-0">
             <Card
               style={{ width: "100%", height: "100%" }}
               className="h-100 shadow-sm"
@@ -94,9 +94,7 @@ function projects() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row className="mb-2">
-          <Col xs={12} md={4} className="mb-md-0 mb-3">
+          <Col xs={12} md={6} lg={6} xl={4} className="mb-3 mb-md-0">
             <Card
               style={{ width: "100%", height: "100%" }}
               className="h-100 shadow-sm"
@@ -121,11 +119,12 @@ function projects() {
             </Card>
           </Col>
         </Row>
+
         <Row>
           <h6 className="mt-3 mb-2">JAVA PROJECTS</h6>
         </Row>
         <Row className="mt-2 mb-5">
-          <Col xs={12} md={4} className="mb-md-0 mb-3">
+          <Col xs={12} md={6} lg={6} xl={4} className="mb-md-0 mb-3">
             <Card
               style={{ width: "100%", height: "100%" }}
               className="h-100 shadow-sm"

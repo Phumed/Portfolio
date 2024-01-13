@@ -16,7 +16,12 @@ function NavBar() {
               style={{ textDecoration: "none" }}
               className="fs-3 fs-md-2 fw-bold"
             >
-              Phumed Thumtechanon
+              <div className="d-flex">
+                Phumed
+                <span className="d-block d-lg-none d-xl-block ms-2">
+                  Thumtechanon
+                </span>
+              </div>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

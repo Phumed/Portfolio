@@ -13,8 +13,8 @@ function contact() {
           <h5>CONTACT</h5>
         </Row>
         <Row className="mt-2">
-          <Col className="mb-4" xs={12} md={6}>
-            <Row className="bg-light me-md-4 h-100 mx-md-0 mx-1">
+          <Col className="mb-4" xs={12} lg={6}>
+            <Row className="bg-light me-lg-4 h-100 mx-md-0 mx-1">
               <Col
                 xs={2}
                 style={{
@@ -41,7 +41,7 @@ function contact() {
               </Col>
             </Row>
           </Col>
-          <Col className="mb-4" xs={12} md={6}>
+          <Col className="mb-4" xs={12} lg={6}>
             <Row className="bg-light h-100  mx-md-0 mx-1">
               <Col
                 xs={2}
@@ -89,8 +89,8 @@ function contact() {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={6} className="mb-4">
-            <Row className="bg-light me-md-4 h-100 mx-md-0 mx-1">
+          <Col xs={12} lg={6} className="mb-4">
+            <Row className="bg-light me-lg-4 h-100 mx-md-0 mx-1">
               <Col
                 xs={2}
                 style={{
@@ -120,7 +120,7 @@ function contact() {
               </Col>
             </Row>
           </Col>
-          <Col xs={12} md={6} className="mb-4">
+          <Col xs={12} lg={6} className="mb-4">
             <Row className="bg-light h-100 mx-md-0 mx-1">
               <Col
                 xs={2}

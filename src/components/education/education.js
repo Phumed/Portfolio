@@ -18,7 +18,7 @@ function education() {
           </Col>
         </Row>
         <Row className="mt-2">
-          <Col xs={12} md={5}>
+          <Col xs={12} md={8} lg={5}>
             <Card className="shadow-sm">
               <Card.Img variant="top" src={Mahidol} className="px-4 mt-3" />
               <Card.Body className="bg-light">
@@ -53,8 +53,8 @@ function education() {
           </Col>
         </Row>
         <Row className="mb-5 mt-2">
-          <Col xs={12} md={4} className="mb-3">
-            <Card className="w-100 shadow-sm">
+          <Col xs={12} md={6} lg={4} className="mb-3 mb-md-0">
+            <Card className="w-100 h-100 shadow-sm">
               <Card.Img variant="top" src={Codecademy} className="px-4 my-3" />
               <Card.Body className="bg-light">
                 <Card.Title>Front-End Engineer</Card.Title>
@@ -76,7 +76,7 @@ function education() {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6} lg={4}>
             <Card className="w-100 h-100 shadow-sm">
               <Card.Img variant="top" src={Codecademy} className="px-4 my-3" />
               <Card.Body className="bg-light">

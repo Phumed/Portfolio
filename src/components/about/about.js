@@ -20,7 +20,7 @@ function about() {
           </Col>
         </Row>
         <Row className="mt-2">
-          <Col className="px-md-0" xs={12} md={3}>
+          <Col className="px-md-0" xs={12} md={4} lg={3}>
             <Carousel className="ms-md-3">
               <Carousel.Item>
                 <img
@@ -50,9 +50,9 @@ function about() {
               I am a third year student of Computer Engineering at Mahidol
               University. I love to challenge and improve myself all the time.
             </Row>
-            <Row className="mt-5">
-              <Col className="me-3" xs={12} md={6}>
-                <Row className="mb-3">
+            <Row className="mt-xl-5 mt-lg-3 mt-3">
+              <Col xs={12} lg={6}>
+                <Row className="mb-3 me-lg-2">
                   <Card body className="shadow-sm">
                     <span style={{ display: "flex" }}>
                       <span class="material-symbols-outlined">
@@ -65,6 +65,8 @@ function about() {
                     </span>
                   </Card>
                 </Row>
+              </Col>
+              <Col xs={12} lg={6}>
                 <Row className="mb-3">
                   <Card body className="shadow-sm">
                     <span style={{ display: "flex" }}>
@@ -79,8 +81,8 @@ function about() {
                   </Card>
                 </Row>
               </Col>
-              <Col>
-                <Row className="mb-3">
+              <Col xs={12} lg={6}>
+                <Row className="mb-3 me-lg-2">
                   <Card body className="shadow-sm">
                     <span style={{ display: "flex" }}>
                       <span class="material-symbols-outlined">
@@ -88,11 +90,13 @@ function about() {
                       </span>
                       <span>
                         <span className="fw-semibold">Phone</span>: +66
-                        097-217-5550
+                        97-217-5550
                       </span>
                     </span>
                   </Card>
                 </Row>
+              </Col>
+              <Col xs={12} lg={6}>
                 <Row className="mb-3">
                   <Card body className="shadow-sm">
                     <span style={{ display: "flex" }}>
@@ -115,8 +119,8 @@ function about() {
             <h5>INTERESTS</h5>
           </Col>
         </Row>
-        <Row className="mt-2 fs-5">
-          <Col xs={12} md={4} className="mb-3">
+        <Row className="mt-2 fs-5 mb-5">
+          <Col xs={12} lg={6} xl={4} className="mb-3">
             <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">code</span>
@@ -124,7 +128,7 @@ function about() {
               </span>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-3">
+          <Col xs={12} lg={6} xl={4} className="mb-3">
             <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">data_object</span>
@@ -132,7 +136,7 @@ function about() {
               </span>
             </Card>
           </Col>
-          <Col xs={12} md={4} className="mb-3">
+          <Col xs={12} lg={6} xl={4} className="mb-3">
             <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">monitoring</span>
@@ -140,9 +144,7 @@ function about() {
               </span>
             </Card>
           </Col>
-        </Row>
-        <Row className="mt-md-4 fs-5 mb-5">
-          <Col xs={12} md={4}>
+          <Col xs={12} lg={6} xl={4}>
             <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">code_blocks</span>

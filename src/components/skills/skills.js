@@ -85,13 +85,12 @@ function skills() {
                 <Col
                   md={2}
                   xs={12}
-                  className="d-flex justify-content-center my-3 mx-md-3"
+                  className="d-flex justify-content-center align-items-center my-3 mx-md-3"
                 >
                   <Image
                     src={MongoDB}
                     rounded
-                    className="w-auto"
-                    style={{ height: "3rem" }}
+                    style={{ height: "2rem", width: "7rem" }}
                   />
                 </Col>
                 <Col
@@ -177,13 +176,12 @@ function skills() {
                 <Col
                   md={2}
                   xs={12}
-                  className="d-flex justify-content-center my-3 mx-md-3"
+                  className="d-flex justify-content-center align-items-center my-3 mx-md-3"
                 >
                   <Image
                     src={Git}
                     rounded
-                    className="w-auto"
-                    style={{ height: "4rem" }}
+                    style={{ height: "2.5rem", width: "5rem" }}
                   />
                 </Col>
                 <Col
