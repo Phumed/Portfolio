@@ -169,7 +169,7 @@ function skills() {
             </Card>
           </Col>
         </Row>
-        <Row className="w-100 mb-5">
+        <Row className="mb-5">
           <Col>
             <Card className="shadow-sm">
               <Card.Title className="mx-auto mx-md-3 my-3">Tools</Card.Title>
