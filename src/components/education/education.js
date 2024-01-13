@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../NavBar";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Mahidol from "../../elements/mahidol.jpg";
 import Codecademy from "../../elements/codecademy.jpg";
+import Mahidol from "../../elements/mahidol.jpg";
+import NavBar from "../NavBar";
 
 function education() {
   return (
@@ -53,7 +53,7 @@ function education() {
           </Col>
         </Row>
         <Row className="mb-5 mt-2">
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mb-3">
             <Card className="w-100">
               <Card.Img variant="top" src={Codecademy} className="px-4 my-3" />
               <Card.Body className="bg-light">

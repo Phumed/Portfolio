@@ -1,14 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./home.css";
-import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Row from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
+import "./home.css";
 
 import Badge from "react-bootstrap/Badge";
 
@@ -70,7 +68,7 @@ function home() {
         </Container>
       </Navbar>
       <Container className="vh-100 align-items-center d-flex">
-        <Row className="justify-content-center ">
+        <Row className="mx-auto mx-sm-0">
           <Col xs={12} className="w-100">
             <div className="w-100">
               <h1 className="fw-bold">

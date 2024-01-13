@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div>
       <Container>
-        <Navbar expand="lg" className="bg-body-tertiary ">
+        <Navbar expand="lg" className="bg-body-tertiary w-100">
           <Navbar.Brand>
             <Link
               to="/"
