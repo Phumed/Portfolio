@@ -117,7 +117,7 @@ function about() {
         </Row>
         <Row className="mt-2 fs-5">
           <Col xs={12} md={4} className="mb-3">
-            <Card body className="bg-light shadow-sm">
+            <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">code</span>
                 <span className="ms-2">Front-End Development</span>
@@ -125,7 +125,7 @@ function about() {
             </Card>
           </Col>
           <Col xs={12} md={4} className="mb-3">
-            <Card body className="bg-light shadow-sm">
+            <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">data_object</span>
                 <span className="ms-2">Back-End Development</span>
@@ -133,7 +133,7 @@ function about() {
             </Card>
           </Col>
           <Col xs={12} md={4} className="mb-3">
-            <Card body className="bg-light shadow-sm">
+            <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">monitoring</span>
                 <span className="ms-2">Visualization</span>
@@ -143,7 +143,7 @@ function about() {
         </Row>
         <Row className="mt-md-4 fs-5 mb-5">
           <Col xs={12} md={4}>
-            <Card body className="bg-light shadow-sm">
+            <Card body className="shadow-sm">
               <span style={{ display: "flex" }}>
                 <span class="material-symbols-outlined">code_blocks</span>
                 <span className="ms-2">UX-UI Design</span>

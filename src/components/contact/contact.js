@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "../NavBar";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import NavBar from "../NavBar";
 
 function contact() {
   return (
@@ -113,9 +113,10 @@ function contact() {
                 </div>
               </Col>
               <Col className="my-5">
-                <div className="fs-4 fw-bold">Email</div> Dutchie2546@gmail.com
-                <br />
-                phumed.thu@student.mahidol.edu
+                <div className="fs-4 fw-bold">Email</div>{" "}
+                <a href="mailto:phumed.thumtechanon@gmail.com">
+                  phumed.thumtechanon@gmail.com
+                </a>
               </Col>
             </Row>
           </Col>

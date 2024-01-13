@@ -19,7 +19,7 @@ function projects() {
         </Row>
         <Row className="mt-2 mb-2">
           <Col xs={12} md={4} className="mb-md-0 mb-3">
-            <Card style={{ width: "100%" }} className="h-100">
+            <Card style={{ width: "100%" }} className="h-100 shadow-sm">
               <Card.Body>
                 <Card.Title>Personal Portfolio</Card.Title>
                 <Card.Text>
@@ -28,13 +28,17 @@ function projects() {
                   with CSS and the Bootstrap framework. This ensures an optimal
                   user experience across various devices and screen sizes.
                 </Card.Text>
-                <Card.Link href="#">Github</Card.Link>
-                <Card.Link href="#">Web</Card.Link>
+                <Card.Link href="https://github.com/Phumed/Portfolio.git">
+                  Github
+                </Card.Link>
+                <Card.Link href="https://portfolio-w0h1.onrender.com">
+                  Web
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={4} className="mb-md-0 mb-3">
-            <Card style={{ width: "100%" }} className="h-100">
+            <Card style={{ width: "100%" }} className="h-100 shadow-sm">
               <Card.Body>
                 <Card.Title>Jammming</Card.Title>
                 <Card.Text>
@@ -61,7 +65,10 @@ function projects() {
             </Card>
           </Col>
           <Col xs={12} md={4} className="mb-md-0 mb-3">
-            <Card style={{ width: "100%", height: "100%" }} className="h-100">
+            <Card
+              style={{ width: "100%", height: "100%" }}
+              className="h-100 shadow-sm"
+            >
               <Card.Body>
                 <Card.Title>Entertainment Web App</Card.Title>
                 <Card.Text>
@@ -90,7 +97,10 @@ function projects() {
         </Row>
         <Row className="mb-2">
           <Col xs={12} md={4} className="mb-md-0 mb-3">
-            <Card style={{ width: "100%", height: "100%" }} className="h-100">
+            <Card
+              style={{ width: "100%", height: "100%" }}
+              className="h-100 shadow-sm"
+            >
               <Card.Body>
                 <Card.Title>Facebook Clone</Card.Title>
                 <Card.Text>
@@ -104,7 +114,9 @@ function projects() {
                 >
                   Github
                 </Card.Link>
-                <Card.Link href="#">Web</Card.Link>
+                <Card.Link href="https://cloning-32kc.onrender.com">
+                  Web
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
@@ -114,14 +126,18 @@ function projects() {
         </Row>
         <Row className="mt-2 mb-5">
           <Col xs={12} md={4} className="mb-md-0 mb-3">
-            <Card style={{ width: "100%", height: "100%" }} className="h-100">
+            <Card
+              style={{ width: "100%", height: "100%" }}
+              className="h-100 shadow-sm"
+            >
               <Card.Body>
                 <Card.Title>Cooking Game</Card.Title>
                 <Card.Text>
-                  This Project is to serve a food to many customers as much as
-                  possible on the time that game determined This Cooking game
-                  project I have learned about OOP( Object-Oriented Programs),
-                  data structure, multiThread and UI design.
+                  This project involves efficiently serving customer food orders
+                  within a set time in a cooking game. Through it, I gained
+                  insights into OOP, data structures, multi-threading, and UI
+                  design, emphasizing modular code, efficient processing, and a
+                  user-friendly interface.
                 </Card.Text>
                 <Card.Link
                   href="https://github.com/Phumed/Cooking-Game.git"

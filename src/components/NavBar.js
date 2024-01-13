@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -48,10 +48,12 @@ function NavBar() {
                   Skills
                 </Link>
               </Nav.Link>
-              <Nav.Link className="me-2">
-                <Link to="/contact" style={{ textDecoration: "none" }}>
-                  Resume
-                </Link>
+              <Nav.Link
+                href="https://drive.google.com/file/d/1alNyuVM_pY2xeHvsLJMDZ2aJ-lIlECvL/view?usp=sharing"
+                className="me-2 text-primary"
+                target="_blank"
+              >
+                Resume
               </Nav.Link>
               <Nav.Link>
                 <Link to="/contact" style={{ textDecoration: "none" }}>
