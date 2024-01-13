@@ -18,7 +18,7 @@ function education() {
           </Col>
         </Row>
         <Row className="mt-2">
-          <Col xs={12} md={8} lg={5}>
+          <Col xs={12} md={8} lg={6} xl={5}>
             <Card className="shadow-sm">
               <Card.Img variant="top" src={Mahidol} className="px-4 mt-3" />
               <Card.Body className="bg-light">
